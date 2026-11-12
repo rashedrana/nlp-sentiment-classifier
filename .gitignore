@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Trained models can be large — retrain locally with `python -m src.train`.
+# (A small model.joblib may be committed on purpose for demos; if you do,
+# remove the line below.)
+models/*.joblib
+!models/.gitkeep
